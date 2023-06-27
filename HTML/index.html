@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li {
+                display: inline;
+            }
+        </style>
+
+    </head>
+
+<body>
+    <h1>Html Form</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home |</a></li>
+            <li><a href="#news">List</a></li>
+        </ul>
+    </nav>
+    </br>
+    <form action="/action_page.php" method="get" autocomplete="on">
+        <div>
+            <label for="">Name:</label>
+            <input type="text" name="Name" placeholder="Name" id="text">
+        </div>
+        <div>
+            <label for="">Father Name:</label>
+            <input type="text" name="Father Name" placeholder="FatherName" id="text">
+        </div>
+        <div>
+            <label for="">Mother Name:</label>
+            <input type="text" name="Mother Name" placeholder="Mother Name" id="text">
+        </div>
+        <div>
+            <label for="">Email:</label>
+            <input type="Email" placeholder="Enter Your Email" required>
+        </div>
+        <div>
+            <label for="">Gender:</label>
+            <input name="Gender" type="radio">Male
+            <input name="Gender" type="radio">Female
+        </div>
+        <div>
+            <label for="">Games:</label>
+            <input type="checkbox" id="Game1" name="Game1" value="Cricket">Cricket
+            <input type="checkbox" id="Game2" name="Game2" value="Chess">Chess
+            <input type="checkbox" id="Game3" name="Game3" value="FootBall">FootBall
+            <input type="checkbox" id="Game4" name="Game4" value="Hokey">Hokey
+            <input type="checkbox" id="Game5" name="Game5" value="Carrom">Carrom
+        </div>
+        <div>
+            <label for="">Date of Birth:</label>
+            <input type="Date" name="Date of Birth">
+        </div>
+        <div>
+            <label for="">Country:</label>
+            <select>
+                <option selected disabled>Select Your Country</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Goa</option>
+                <option>Mumbai</option>
+            </select>
+
+        </div>
+        <input type="submit" value="Login">
+        <input type="button" value="Reset">
+    </form>
+
+</body>
+
+</html>

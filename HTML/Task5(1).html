@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>CSS | T1</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+body{    
+    padding: 80px 52px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    height: 800px;
+    width: 1440px;
+}
+
+.container1{
+    width: 310px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    border: 2px rgb(172, 169, 169) solid;
+}
+
+.img{
+    width: 310px;
+    height: 230px;
+}
+
+.identity{
+    height: 200px;
+    padding: 0px 0px 0px 10px;
+    width: 300px;
+}
+
+.icon{
+    height: 35px;
+    width: 35px;
+    align-items: center;
+}
+
+a{
+    position: absolute;
+    padding: 9px 10px;
+}
+small{
+    color: rgb(83, 81, 81);
+}
+
+.card2{
+    height: 200px;
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.smallcards{
+    width: 262px;
+    height: 162px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.06);
+    margin-left: 30px;
+
+
+}
+
+.green{
+    height: 15px;
+    width: 50px;
+    color: #20C997;
+    background-color: #DCFFF5;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    padding: 5px 5px;
+    margin-top: 50px;
+    
+}
+
+.red{
+    height: 15px;
+    width: 50px;
+    color: #DC3545;
+    background-color: #FFE0E3;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    padding: 5px 5px;
+    margin-top: 50px;
+
+}
+
+.grey{
+    height: 15px;
+    width: 50px;
+    color: #5F6980;
+    background-color: #F2F4F7;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    padding: 5px 5px;
+    margin-top: 50px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container1">
+        <div class="img">
+            <img src="Person.png">
+        </div>
+        <div class="identity" >
+            <h3>Jocelyn Schleifer</h3>
+            <p>Software Engineer</p>
+            <small>There are many variations of passages of Lorem Ipsum available.</small>
+
+            <div class="icon">
+                <p><a href="#"><img src="Icon Box.jpg" height="20px"></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card2">
+        <div class="smallcards" style="margin-left: 0px">
+            <div style="padding-left: 25px;">
+                <p>Revenue</p>
+                <p>$56,945</p>
+                <div style="margin-top: 50px;">
+                    <span class="green">+45%</span>  <span style="color: #5F6980;"> From 4.6%</span>
+                </div>
+            </div>
+        </div>
+        <div class="smallcards">
+            <div style="padding-left: 25px">
+                <p>Users</p>
+                <p>76.8%</p>
+                <div style="margin-top: 50px;">
+                    <span class="red">-1.7%</span><span style="color:  #5F6980;"> From 4.6%</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="smallcards">
+            <div style="padding-left: 25px;">
+                <p>New Signups</p>
+                <p>116</p>
+                <div style="margin-top: 50px;">
+                    <span class="grey">0.00</span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="smallcards">
+            <div style="padding-left: 25px;">
+                <p>Retention</p>
+                <p>12.67%</p>
+                <div style="margin-top: 50px;">
+                    <span class="green">+0.6%</span>  <span style="color: #5F6980;"> From 4.6%</span>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

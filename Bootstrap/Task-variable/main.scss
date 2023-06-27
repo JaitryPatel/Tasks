@@ -1,0 +1,52 @@
+$myColor: rgb(22, 113, 198);
+$white:    #fff;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h5{
+
+    color: $myColor;
+}
+h6{
+    font-weight: normal;
+    color:rgb(196, 190, 190)
+}
+.container p{
+    color: $white;
+}
+.card-img-top{
+    border-radius: 50%;
+    height: 150px !important;
+    width: 150px !important;
+    // position: relative;
+    left: 50px;
+    object-fit: cover;
+    margin: 20px;
+}
+.card{
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    // margin-top: 70px !important;
+   background-color: rgb(28, 28, 28);
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.bi{
+    font-size: 15px;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .card-img-top{
+        
+        left: 48px !important;
+       
+    }
+  }

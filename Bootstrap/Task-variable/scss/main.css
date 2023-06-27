@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.one{
+  display: flex;
+}
+aside{
+  background-color: rgb(25 25 27);
+  width: 15%;
+  height: auto;
+}
+ul{
+  list-style: none;
+  color: white;
+}
+h4{
+  color: white
+}
+h5 {
+  color: rgb(22, 113, 198);
+}
+
+h6 {
+  font-weight: normal;
+  color: rgb(196, 190, 190);
+}
+
+.container p {
+  color: #fff;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  height: 150px !important;
+  width: 150px !important;
+  position: relative;
+  left: 50px;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.card {
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px !important;
+  background-color: rgb(28, 28, 28);
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.bi {
+  font-size: 15px;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
+p{
+  margin-bottom: 0.3rem;
+}
