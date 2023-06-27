@@ -1,0 +1,38 @@
+<!-- <p>employee-list works!</p> -->
+<div class="main">
+    <h3>Employee Table</h3>
+    <!-- <app-employee></app-employee> -->
+    <div class="input-container">
+        <input type="text" class="input" [(ngModel)]="searchText" placeholder="search...">
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr *ngFor="let item of tableheader">
+                    <th>{{item.id}}</th>
+                    <th>{{item.name}}</th>
+                    <th>{{item.department}}</th>
+                    <th>{{item.age}}</th>
+                    <th>{{item.salary}}</th>
+                    <th>{{item.country}}</th>
+                    <th>{{item.date}}</th>
+                    <th>Action</th>
+                    <!-- <td>{{items.tableheader}}</td> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of employee | searchFilter:searchText;let index" >
+                    <td>{{item.id}}</td>
+                    <td appHighlight>{{item.name | shorten}}</td>
+                    <td>{{item.department}}</td>
+                    <td>{{item.age}}</td>
+                    <td>{{item.salary}}</td>
+                    <td>{{item.country}} </td>
+                    <td>{{item.date | date:"MM/dd/yyyy"}}</td>
+                    <td><span><button class="edit">EDIT</button></span><span><button class="delete"
+                                (click)="deleteRow(index)">DELETE</button></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

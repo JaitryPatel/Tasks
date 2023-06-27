@@ -1,0 +1,78 @@
+h3{
+    margin: 20px;
+}
+.main{
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #c4c4c4;
+    margin: 10px;
+    border-radius: 8px;
+    
+}
+.input-container{
+    margin-top: 20px;
+   text-align: center;
+}
+.input-container .input{
+    width: 70%;
+    margin: 7px;
+    padding: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: #808080;
+    font-size: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #c4c4c4;
+}
+.table{
+    overflow-x: auto;
+    // margin: 10px;
+    // padding: 10px;
+    // justify-content: center;
+    align-items: center;
+}
+table {
+    text-align: center;
+    width: 97%;
+    font-size: 17px;
+    margin: 20px 20px 10px 20px;
+    // margin: 20px;
+}
+th{
+    padding: 15px 15px;
+    color: white;
+    background-color: #0c0572;
+}
+
+.edit {
+    margin: 5px;
+    padding: 5px;
+    background-color: hsl(217, 52%, 33%);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #c4c4c4;
+}
+
+
+.delete {
+    margin: 5px;
+    padding: 5px;
+    background-color: #12101a;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    border: 2px solid #f1f0f5;
+    cursor: pointer;
+}
+
+tr,
+td {
+    padding: 10px 10px;
+}
+
+tr:nth-child(even) {
+    background-color: hsl(0, 0%, 90%);
+}
