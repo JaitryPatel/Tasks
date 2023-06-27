@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+/* create header */
+.header{
+    display: flex;
+    /* box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2); */
+    margin: 7px;
+    justify-content: space-between;
+}
+.header .header-left{
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+}
+.header .header-left .hambuger{
+    background: transparent;
+    padding: 13px;
+}
+.header .header-left h3{
+    margin: 10px;
+}
+.header .header-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+.header .header-right .avtar{
+    display: flex;
+}
+.notification-btn{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    gap: 5px;
+}
+.header-right p{
+    padding: 10px;
+}
+ .notification-btn .round{
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    background: blue;
+    border-radius: 50%;
+    right: 200px;
+    top: 20px;
+}
+
+.information{
+    margin: 15px 5px 15px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 10px;
+
+}
+.information .products{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.information .products .items{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.information .products .items .item{
+    display: flex;
+}
+.table-1{
+    width: 100%;
+    overflow-x: auto;
+}
+.table-1 tr{
+    padding: 5px;
+}
+.table-1 .table-heading{
+    text-align: left;
+    padding: 10px;
+}
+.table-data{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 10px;
+    text-align: left;
+    border-top: 1px solid #EAECF0;
+}
+.table-data .person {
+    display: flex;
+    gap: 20px;
+}
+.table-1 small{
+    color: gray;
+}
+.table-data .red {
+    padding: 4px 8px ;
+    border-radius: 50px ;
+    color: white;
+    background-color: red;
+}
+.table-data .orange {
+    padding: 4px 8px ;
+    border-radius: 50px ;
+    color: white;
+    background-color: orange;
+}
+.table-data .green {
+    padding: 4px 8px ;
+    border-radius: 50px ;
+    color: white;
+    background-color: rgb(13, 77, 13);
+}
+.page{
+    text-align: right;
+}
+.table-data .page1{
+    display: flex;
+}
+.page2{
+    display: flex;
+   gap: 20px;
+}
+
+.web {
+    display: flex;
+}
+ .nav{
+    display: flex;
+}
+.sidebar{
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+}
+
+/* Root : Aside : nav : logo-text */
+.nav  .img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.nav .text{
+    font-size: 20px;
+    color: #1570EF;
+    font-weight: 600;
+    margin: 10px;
+}
+/* Root : Aside : nav : navigation */
+
+ul{
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.web .sidebar .nav .navigation ul li a{
+    display: flex;
+    padding: 17px 0px;
+    color: #5D6679;
+    font-size: 16px;
+    position: relative;
+    align-items: center;
+    gap: 18px;
+}
+.white {
+    color: white;
+}
+.main{
+    width: 100%;
+}
+/* web : sidebar : nav : navigation */
+
+#box,.sidebar{
+    display: none;
+}
+#box:checked+ .sidebar{
+    display: block;
+}

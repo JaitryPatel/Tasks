@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 20px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 4%;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .left{
+    display: flex;
+}
+.header .left .title{
+    display: flex;
+    align-items: center;
+}
+
+.header .left .left-btn{
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    margin: 10px;
+}
+
+.header .rhombus{
+    margin: -8px;
+}
+
+.header .right .right-btn{
+    background-color: transparent;
+    border: none;
+}
+.search-bar .search{
+    padding: 5px;
+    border: 2px solid gray;
+    background-image: url(search.png);
+    background-position: 10px;
+    text-indent:  31px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+}
+.details{
+    align-items: center;
+}
+
+.details .profile{
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.profile .s2{
+    display: flex;
+}
+.profile .s2-btn1{
+    display: flex;
+    text-indent: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 1px;
+    cursor: pointer;
+    position: relative;
+}
+.profile .s2-btn2{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 1px;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(121, 54, 184);
+}
+
+.four-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.four-box .box{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+}
+.four-box .box .first{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.four-box .box p{
+    margin: 20px;
+}
+.four-box .box .first .progress-bar{
+    display: flex;
+}
+.four-box .box .progress {
+    margin: 20px;
+    height: 11px;
+    width: 60%;
+    border-radius: 30px;
+    border:  1px solid #ccc;
+    display: flex;
+}
+.four-box .box .progress .p{
+    background-color: blueviolet;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container1{
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+.container1 .head{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 20px;
+}
+.container1 .detail h3{
+    margin: 20px;
+
+}
+.container1 .detail p{
+    margin: 20px;
+
+}
+.container1 .information {
+    display: flex;
+    gap: 20px;
+}
+
+.container1 .range{
+    display: flex;
+    gap: 50px;
+}
+.container1 .dots{
+    display: flex;
+    padding: 10px;
+}
+
+.container1 .purple-dot{
+    height: 15px;
+    width: 15px;
+    background-color: #70126b;
+    border-radius: 100%;
+}
+.container1 .pink-dot{
+    height: 15px;
+    width: 15px;
+    background-color: #f55ced;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+.container1 .green-dot{
+    height: 15px;
+    width: 15px;
+    background-color: #20C997;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+.table {
+    width: 100%;
+    table-layout: fixed;
+    align-items: center;
+}
+.table tr{
+    padding: 5px;
+}
+.table td{
+    text-align: center;
+}
+.table th{
+    padding: 10px 0px;
+    color: #5F6980;
+    background-color: #F9FAFB;
+    padding-right: 120px;
+    
+}
+.container2{
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+ .table .title1{
+    background: #F9FAFB;
+ }
+.container2 .heading{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.container2 p{
+    margin: 20px;
+}
+ .data-table .table-data{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 10px;
+    text-align: left;
+
+}
+.data-table .table-data .person-name{
+    padding: 9px 8px;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.table-data .identity{
+    display: flex;
+    align-items: center;
+}
+.data-table .heading{
+    table-layout: fixed;
+    height: 100px;
+
+}
+

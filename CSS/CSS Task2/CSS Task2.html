@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page</title>
+    <style>
+        body {
+            padding: 85px 55px;
+            position: relative;
+            font-family: sans-serif;
+            background-image: radial-gradient(rgb(206, 57, 131), rgb(165, 159, 194) 40%, rgb(10, 209, 113));
+
+        }
+
+        .wrapper {
+            width: 1440px;
+            height: 800px;
+        }
+
+        .container1 {
+            height: 430px;
+            width: 310px;
+            display: flex;
+            flex-direction: column;
+            border: 2px rgb(110, 110, 110) solid;
+
+        }
+
+        .img {
+            width: 310px;
+            height: 230px;
+        }
+
+        .identity {
+            height: 200px;
+            padding: 5px 5px 5px 10px;
+            width: 300px;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            align-items: center;
+        }
+
+        a {
+            position: absolute;
+            padding: 11px 10px;
+        }
+
+        .container2 {
+            display: flex;
+            height: 200px;
+            margin-top: 40px;
+            flex-direction: row;
+        }
+
+        .box1 {
+            width: 270px;
+            height: 160px;
+            box-shadow: 0px 2px 20px rgba(36, 35, 35, 0.06);
+            border-radius: 20px;
+            margin-left: 25px;
+            background: linear-gradient(0deg, rgb(129, 129, 241), rgb(144, 226, 144) 40%, rgb(230, 129, 129));
+
+        }
+
+        .box2 {
+            width: 270px;
+            height: 160px;
+            box-shadow: 0px 2px 20px rgba(36, 35, 35, 0.06);
+            border-radius: 20px;
+            margin-left: 25px;
+            background-image: radial-gradient(circle, rgb(233, 122, 122), rgb(231, 231, 124), rgb(143, 223, 143));
+        }
+
+        .box3 {
+            width: 270px;
+            height: 160px;
+            box-shadow: 0px 2px 20px rgba(36, 35, 35, 0.06);
+            border-radius: 20px;
+            margin-left: 25px;
+            background: linear-gradient(0deg, rgb(13, 13, 82), rgb(74, 233, 74) 40%, rgb(245, 10, 10));
+
+        }
+
+        .box4 {
+            width: 270px;
+            height: 160px;
+            box-shadow: 0px 2px 20px rgba(36, 35, 35, 0.06);
+            border-radius: 20px;
+            margin-left: 25px;
+            background-image: radial-gradient(rgb(175, 181, 228), rgb(238, 132, 132));
+        }
+
+        .b1 {
+            width: 55px;
+            height: 20px;
+            border-radius: 20px;
+            align-items: center;
+            position: relative;
+            padding: 5px 5px;
+            margin-top: 50px;
+            border: rgb(9, 114, 56);
+            border-color: aqua;
+        }
+
+        .b2 {
+            width: 55px;
+            height: 20px;
+            border-radius: 20px;
+            align-items: center;
+            position: relative;
+            padding: 5px 5px;
+            margin-top: 50px;
+            border: rgb(226, 23, 23);
+            border-color: pink;
+        }
+
+        .b3 {
+            width: 55px;
+            height: 20px;
+            border-radius: 20px;
+            align-items: center;
+            position: relative;
+            padding: 5px 5px;
+            margin-top: 50px;
+            border: #5F6980;
+            border-color: aliceblue;
+        }
+
+        .b4 {
+            width: 55px;
+            height: 20px;
+            border-radius: 20px;
+            align-items: center;
+            position: relative;
+            padding: 5px 5px;
+            margin-top: 50px;
+            border: rgb(18, 187, 88);
+            border-color: aquamarine;
+        }
+        div.relative{
+            position: relative;
+            height: 200px;
+            width: 400px;
+            border:3px solid grey;
+        
+        }
+
+        div.absolute{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: red ;
+            display: inline-block;
+            top: 10px;
+            right: -10px;
+        }
+    </style>
+
+<body>
+    <div class="wrapper">
+        <div class="container1">
+            <div class="img">
+                <img src="Person.png">
+            </div>
+            <div class="identity">
+                <h3>Jocelyn Schleifer</h3>
+                <p>Software Engineer</p>
+                <small>There are many variations of passages of Lorem Ipsum available.</small>
+
+                <div class="icon">
+                    <p><a href="#"><img src="Icon Box.png" height="20px"></a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="box1" style="margin-left: 0px">
+                <div style="padding-left: 25px;">
+                    <p>Revenue</p>
+                    <p>$56,945</p>
+                    <div style="margin-top: 50px;">
+                        <span class="b1">+45%</span> <span style="color: #5F6980;"> From 4.6%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div style="padding-left: 25px">
+                    <p>Users</p>
+                    <p>76.8%</p>
+                    <div style="margin-top: 50px;">
+                        <span class="b2">-1.7%</span><span style="color:  #5F6980;"> From 4.6%</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box3">
+                <div style="padding-left: 25px;">
+                    <p>New Signups</p>
+                    <p>116</p>
+                    <div style="margin-top: 50px;">
+                        <span class="b3">0.00</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box4">
+                <div style="padding-left: 25px;">
+                    <p>Retention</p>
+                    <p>12.67%</p>
+                    <div style="margin-top: 50px;">
+                        <span class="b4">+0.6%</span> <span style="color: #5F6980;"> From 4.6%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="absolute">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
