@@ -1,0 +1,11 @@
+{
+    "Customer":[
+        {
+            "name": "Om Patel",
+            "project": "Deskbook",
+            "designation": "Frontend",
+            "duration": "Full day",
+            "email": "ompatel@gmail.com"
+        }
+    ]
+}

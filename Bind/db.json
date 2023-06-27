@@ -1,0 +1,17 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "firstName": "Jaitry",
+      "lastName": "Patel",
+      "email": "Jaitry@gmail.com",
+      "department": "Frontend",
+      "address": "Valsad",
+      "number": "1234567890",
+      "description": "I am Jaitry",
+      "password": "Jaitry10",
+      "confirmPassword": "Jaitry10",
+      "status": "Active"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<h1>{{name}}</h1>
+<!-- <h1 [J2] ='name'> </h1> -->
+
+
+
+<!-- This button triggers the overlay and is it's origin -->
+<!-- <button (click)="isOpen = !isOpen" type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+  {{isOpen ? "Close" : "Open"}}
+</button>
+
+This template displays the overlay content and is connected to the button -->
+<!-- <ng-template
+  cdkConnectedOverlay
+  [cdkConnectedOverlayOrigin]="trigger"
+  [cdkConnectedOverlayOpen]="isOpen"> -->
+
+  <ul  class="example-list" *ngFor="let item of Customer" >
+    <td>{{item.fName}} </td>
+    <td>{{item.lName}} </td>
+      <td>{{item.email}}</td>
+        <td>PHONE NO : {{item.phoneNumber}}</td>
+          <td>DESIGNATION : {{item.designation}}</td>
+            <td>CITY : {{item.city}}</td>
+              <td>FLOOR : {{item.floor}}</td>
+                <td>COLUMN : {{item.column}}</td>
+                  <td>SEAT NO : {{item.seat}}</td>
+                    <td>MODE OF WORK : {{item.modeofWork}}</td>
+    <!-- *ngFor="let item of Customer"
+      <li>Name: {{item.name}} </li>
+    <li>Project: {{item.project}} </li>
+    <li>Designation: {{item.designation}}</li>
+    <li>Duration: {{item.duration}}</li>
+    <li>Email: {{item.email}}</li> -->
+  </ul>
+<!-- </ng-template> -->
+<router-outlet></router-outlet>
