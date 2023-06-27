@@ -1,0 +1,20 @@
+{
+  "test": [
+    {
+      "id": 1,
+      "firstname": "Raj",
+      "lastname": "Patel",
+      "email": "raj@gmail.com",
+      "phonenumber": "8642173910",
+      "password": "raj@123"
+    },
+    {
+      "firstname": "Jay",
+      "lastname": "Lad",
+      "email": "jay@gmail.com",
+      "phonenumber": "7801263549",
+      "password": "jay@123",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "fname": "Jaitry",
+      "lname": "Patel",
+      "contact": "7069121252",
+      "email": "Jaitry1122@1rivet.com",
+      "password": "Jaitry@123"
+    },
+    {
+      "fname": "Om",
+      "lname": "Patel",
+      "contact": "8980272770",
+      "email": "Om@1rivet.com",
+      "password": "Om@123",
+      "id": 2
+    },
+    {
+      "fname": "Damyanti",
+      "lname": "Patel",
+      "contact": "8980272770",
+      "email": "Damyanti@1rivet.com",
+      "password": "Damyanti@123",
+      "id": 3
+    },
+    {
+      "fname": "Jayanti",
+      "lname": "Patel",
+      "contact": "9913660603",
+      "email": "Jayanti@1rivet.com",
+      "password": "Jayanti@123",
+      "id": 4
+    },
+    {
+      "fname": "Jemi",
+      "lname": "Patel",
+      "contact": "9586851056",
+      "email": "Jemi@1rivet.com",
+      "password": "Jemi@123",
+      "id": 5
+    },
+    {
+      "fname": "sdfgh",
+      "lname": "sedxfcgvhb",
+      "contact": "98765432134",
+      "email": "dfgvhbjnm@1rivet.com",
+      "password": "Jaitry@123",
+      "id": 6
+    }
+  ]
+}

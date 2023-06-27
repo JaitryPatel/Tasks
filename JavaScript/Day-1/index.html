@@ -1,0 +1,111 @@
+<!--Javascript Task1: 17/03/2023
+
+    Task: Explore variables, functions, data types, built-in functions and operators
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var a = 121;
+        var b = 11;
+        var x = 4.4;
+
+        //sum of two numbers
+        function sumTwoNumber(a, b) {
+            return a + b;
+        }
+        var number = sumTwoNumber(121, 11)
+        console.log(number);
+
+        //subtraction of two numbers
+        function subtractionTwoNumber(a, b) {
+            return a - b;
+        }
+        var number = subtractionTwoNumber(121, 11)
+        console.log(number);
+
+        //multiplication of two numbers
+        function multiplicationTwoNumber(a, b) {
+            return a * b;
+        }
+        var number = multiplicationTwoNumber(121, 11)
+        console.log(number);
+
+        //divison of two numbers
+        function divisonTwoNumber(a, b) {
+            return a / b;
+        }
+        var number = divisonTwoNumber(121, 11)
+        console.log(number);
+
+        //sum of two strings
+        let text1 = "Hello!";
+        let text2 = "How are you?";
+
+        let text = text1 + "" + text2;
+        console.log(text);
+
+        //Display Current time
+        function curTime(){
+            const dt = new Date();
+            let hours = dt.getHours();
+            let minutes = dt.getMinutes();
+            let seconds = dt.getSeconds();
+
+            console.log(hours + ";" + minutes + ";" + seconds);
+        }
+        let time = curTime();
+
+        //Display Current Date
+        function curDate(){
+            const dt = new Date();
+            let day = dt.getDate();
+            let month = dt.getMonth();
+            let year = dt.getFullYear();
+
+            console.log(day + ";" + month + ";" + year);
+        }
+        let date = curDate();
+
+        //Math object
+        let ans = Math.round(x)
+        console.log(ans)
+
+        let ans1  = Math.ceil(x)
+        console.log(ans1)
+
+        let ans2 = Math.floor(x)
+        console.log(ans2)
+
+        let ans3 = Math.trunc(x)
+        console.log(ans3)
+
+        function fun() {
+            alert("This is my website");
+        }
+
+        function myFunction() {
+            let person = prompt("Please enter number");
+        }
+
+    </script>
+</head>
+
+<body>
+    <p>Alert Button</p>
+    <form>
+        <input type="button" value="Click me" onclick="fun();" />
+    </form>
+
+    <p>Prompt Button</p>
+    <button onclick="myFunction()">Try it</button>
+</body>
+
+</html>

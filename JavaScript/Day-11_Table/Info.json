@@ -1,0 +1,100 @@
+{
+  "Students": [
+    {
+      "username": "Jaitry Patel",
+      "userbirthdate": "11/02/2002",
+      "userage": "25",
+      "usergender": "Female",
+      "useremail": "Jaitry@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "Om Patel",
+      "userbirthdate": "10/09/2009",
+      "userage": "15",
+      "usergender": "Male",
+      "useremail": "Om@gmail.com",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "username": "Jemi Patel",
+      "userbirthdate": "29/10/1998",
+      "userage": 24,
+      "usergender": "Female",
+      "useremail": "Jemi@gmail.com"
+    },
+    {
+      "id": 4,
+      "username": "Khushi Patel",
+      "userbirthdate": "15/07/2005",
+      "userage": 18,
+      "usergender": "Female",
+      "useremail": "Khushi@gmail.com"
+    },
+    {
+      "username": "Jeel Patel",
+      "userbirthdate": "05/03/2005",
+      "userage": 15,
+      "usergender": "Male",
+      "useremail": "Jeel@gmail.com",
+      "id": 5
+    },
+    {
+      "username": "Damyanti Patel",
+      "userbirthdate": "17/07/1976",
+      "userage": "47",
+      "usergender": "Female",
+      "useremail": "Damyanti@gmail.com",
+      "id": 6
+    },
+    {
+      "username": "Jayanti Patel",
+      "userbirthdate": "02/05/1964",
+      "userage": "59",
+      "usergender": "Male",
+      "useremail": "Jayanti@gmail.com",
+      "id": 7
+    },
+    {
+      "username": "Dipika Patel",
+      "userbirthdate": "13/03/1977",
+      "userage": "40",
+      "usergender": "Female",
+      "useremail": "Dipika@gmail.com",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "username": "Jetu Patel",
+      "userbirthdate": "11/03/2005",
+      "userage": 18,
+      "usergender": "Female",
+      "useremail": "Jetu@gmail.com"
+    },
+    {
+      "username": "Kamlesh Patel",
+      "userbirthdate": "06/12/1975",
+      "userage": "50",
+      "usergender": "Male",
+      "useremail": "Kamlesh@gmail.com",
+      "id": 10
+    },
+    {
+      "username": "Jetu",
+      "userbirthdate": "21/54",
+      "userage": "6354",
+      "usergender": "Male",
+      "useremail": "Kamlesh@gmail.com",
+      "id": 11
+    },
+    {
+      "username": "jemi",
+      "userbirthdate": "06/12/1975",
+      "userage": "100",
+      "usergender": "Female",
+      "useremail": "sdghb",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Await</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container1">
+            <form id="form">
+
+                <div>
+                    <label for="fname">First Name<sup>*</sup> :</label>
+                    <input type="text" placeholder="Enter your First Name" #fname id="fname" required>
+                    <p id="fname-error">Please Enter Valid First Name</p>
+                </div>
+
+                <div>
+                    <label for="lname">Last Name<sup>*</sup> :</label>
+                    <input type="text" placeholder="Enter your Last Name" #lname id="lname" required>
+                    <p id="lname-error">Please Enter Valid Last Name</p>
+                </div>
+
+                <div>
+                    <label for="contact">Contact No<sup>*</sup> :</label>
+                    <input type="text" placeholder="Enter your Contact No" #contact id="contact" required>
+                    <p id="contact-error">Please Enter Valid Contact No</p>
+                </div>
+
+                <div>
+                    <label for="email">Email<sup>*</sup> :</label>
+                    <input type="text" placeholder="Enter your Email" #email id="email" required>
+                    <p id="email-error">Please Enter Valid Email</p>
+                </div>
+
+                <div>
+                    <label for="password">Password<sup>*</sup> :</label>
+                    <input type="text" placeholder="Enter your Password" #password id="password" required>
+                    <p id="password-error">Please Enter Valid Password</p>
+                </div>
+
+                <div class="btn">
+                    <div class="submitBtn">
+                        <button type="button" id="pushBtn" onclick="pushData()";>Submit</button>
+                    </div>
+                    <!-- <button type="submit" id="submit">Submit</button> -->
+                    <!-- <span>
+                        <button type="submit" id="userbtn" onclick="addData()">Submit</button>
+                    </span>
+                    <span>
+                        <button type="reset" id="userbtn" onclick="update()">Update</button>
+                    </span> -->
+                    <!-- <button type="button" onclick="getStudents()">Get Employees</button> -->
+                </div>
+            </form>
+        </div>
+        <div class="container2">
+            <table id="table" border="2"></table>
+        </div>
+    </div>
+    <!-- <button type="button" onclick="addStudent()">Add Employee</button> -->
+    <!-- <button type="button" onclick="remove()">Delete</button> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
