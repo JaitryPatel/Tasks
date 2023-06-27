@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <h5>Update Data</h5>
+                <div class="row">
+                    <div class="modal-body">
+                        <form >
+                            <div class="form-group mb-2">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control" 
+                                name="name" placeholder="Enter Name">
+                            </div>
+                            <!-- [(ngModel)]="employee.name"  -->
+
+                            <div class="form-group mb-2">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control"
+                                 name="email"  placeholder="Enter Email">
+                            </div>
+                            <!-- [(ngModel)]="employee.email" -->
+
+                            <div class="form-group mb-2">
+                                <label for="exampleInputEmail1">City</label>
+                                <input type="email" class="form-control" 
+                                 name="city" placeholder="Enter City">
+                            </div>
+                            <!-- [(ngModel)]="employee.city" -->
+
+                            <div class="form-group mb-2">
+                                <label for="exampleInputEmail1">Pincode</label>
+                                <input type="number" class="form-control"
+                                name="pincode" placeholder="Enter Pincode ">
+                            </div>
+                            <!-- [(ngModel)]="employee.pincode" -->
+
+                            <div class="form-group mb-2">
+                                <label for="exampleInputEmail1">Phone No.</label>
+                                <input type="number" class="form-control" 
+                                name="phonenumber" placeholder="Enter Phone No.">
+                            </div>
+                            <!-- [(ngModel)]="employee.phonenumber" -->
+                        </form>
+                    </div>
+                    <div>
+                       <button (click)="update()" class="btn btn-success">Update</button> &nbsp;
+                       <button routerLink="/" class="btn btn-dark">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <pre>{{employee|json}}</pre> -->

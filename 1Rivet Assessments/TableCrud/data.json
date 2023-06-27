@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "fname": "Jaitry",
+      "lname": " Patel",
+      "email": "Jaitry@gmail.com",
+      "department": "Frontend",
+      "address": "Vankal",
+      "contactnumber": "9988776655",
+      "description": "I am Jaitry Patel I am doing my internship as a Web Devloper",
+      "status": "Active"
+    },
+    {
+      "fname": "Jaitry",
+      "lname": "Patel",
+      "email": "J@gmail.com",
+      "department": "",
+      "address": "Vankal",
+      "contactnumber": "9988776655",
+      "description": "I am Jaitry Patel",
+      "status": "",
+      "password": "Jaitry@123",
+      "confirmpassword": "Jaitry@123",
+      "id": 2
+    }
+  ]
+}
